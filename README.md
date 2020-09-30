@@ -1,1 +1,2 @@
-# Array-Dance-Random
+# array-visualizer
+Array Visualizer Program
