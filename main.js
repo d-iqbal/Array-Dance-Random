@@ -41,9 +41,9 @@ function keydownHandler(event) {
 
     if (event.code == "Space") {
         for (let i = 0 ; i < myArray.length; i++) {
-            myArray[1] += Math.random() * 5;
+            myArray[i] += Math.random() * 10 - 5;
         }
     } else if (event.code == "KeyR") {
-        
+        myArray = [300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300];
     }  
 }
